@@ -67,7 +67,6 @@ a {
     line-height: 50px;
 }
 
-
 .svg-container {
     display: inline-block;
     position: relative;
@@ -76,4 +75,16 @@ a {
     padding-top: 2%;
     vertical-align: middle;
     overflow: hidden;
+}
+
+div#test {
+    display: none;
+    position: absolute;
+    left: 20%;
+    top: 13%;
+    width: 80%;
+    height: 600px;
+    background-color: bisque;
+    border-radius: 10px;
+    z-index: 100;
 }
