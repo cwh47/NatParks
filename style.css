@@ -25,6 +25,7 @@ a {
     font-size: 35px;
     letter-spacing: 5px;
     text-transform: uppercase;
+    padding: 2%;
 }
 
 @media (max-width:959px) {}
@@ -55,9 +56,9 @@ a {
 
 .nav {
     list-style: none;
-    padding: 0;
-    width: 100%;
+    width: 100px;
     height: 70px;
+    float: right;
 }
 
 .nav li {
@@ -66,10 +67,6 @@ a {
     line-height: 50px;
 }
 
-.nav li:last-child {
-    float: left;
-    margin-left: 4%;
-}
 
 .svg-container {
     display: inline-block;
