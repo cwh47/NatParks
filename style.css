@@ -13,10 +13,10 @@ p {
     font-family: 'Arvo', sans-serif;
     font-size: 15px;
 }*/
-html, body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
+
+a {
+    color: #6dc066;
+    text-decoration: none;
 }
 
 .title {
@@ -24,36 +24,59 @@ html, body {
     font-family: 'Londrina Outline', sans-serif;
     font-size: 35px;
     letter-spacing: 5px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
-.about{
-        color: #b1d0ca;
+@media (max-width:959px) {}
+
+@media (min-width:479px) {}
+
+.about {
+    color: #6dc066;
     font-family: 'Arvo', sans-serif;
-    font-size: 15px;
-      list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 50px;
+    font-size: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.back {
+    color: #6dc066;
+    font-family: 'Arvo', sans-serif;
+    font-size: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
 }
 
 .nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 50px;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    height: 70px;
 }
 
 .nav li {
-  float: right;
-  margin-right: 4%;
-  font-weight: bold;
-  line-height: 50px;
+    float: right;
+    margin-right: 4%;
+    line-height: 50px;
 }
 
 .nav li:last-child {
-  float: left;
-  margin-left: 4%;
+    float: left;
+    margin-left: 4%;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    vertical-align: middle;
+    overflow: hidden;
 }
