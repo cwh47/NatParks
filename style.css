@@ -27,18 +27,24 @@ a {
     padding: 2%;
 }
 
-@media (max-width:959px) {}
-
-@media (min-width:479px) {}
-
 .about {
-    font-family: 'Pacifico', sans-serif;
-    font-size: 16px;
+    font-family: 'Cedarville Cursive', sans-serif;
+    font-size: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
 }
 
-.back {
-    font-family: 'Pacifico', sans-serif;
-    font-size: 16px;
+.main {
+    font-family: 'Cedarville Cursive', 'Arvo';
+    font-size: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
 }
 
 .nav {
@@ -48,10 +54,11 @@ a {
     float: right;
 }
 
-.nav li {
+.nav-li {
     float: right;
     margin-right: 15px;
     line-height: 50px;
+    list-style-type: none;
 }
 
 .svg-container {
