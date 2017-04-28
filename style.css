@@ -29,7 +29,7 @@ a {
 
 .about {
     font-family: 'Cedarville Cursive', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -39,28 +39,18 @@ a {
 
 .main {
     font-family: 'Cedarville Cursive', 'Arvo';
-    font-size: 17px;
+    font-size: 20px;
     list-style: none;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 50px;
 }
-
-.nav {
-    list-style: none;
-    width: 100px;
-    height: 70px;
-    float: right;
-}
-
 .nav-li {
     float: right;
     margin-right: 20px;
-    line-height: 50px;
     list-style-type: none;
 }
-
 .svg-container {
     display: inline-block;
     position: relative;
@@ -70,7 +60,6 @@ a {
     vertical-align: middle;
     overflow: hidden;
 }
-
 div#test {
     display: none;
     position: absolute;

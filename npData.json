@@ -1,5 +1,5 @@
 var responses = {
-    Laura: {
+    saguaro: {
         "name": "Laura"
         , "question1": "Saguaro National Park"
         , "question2": "The thousand colors of the sunset hitting the saguaro cacti and the uniqueness of the desert environment!"
@@ -10,7 +10,7 @@ var responses = {
         , "question8": "Parks and protected areas are reminders of what our home really is. Without them, every city will blend together until we forget where we are and who we are. Parks provide refuge not only for plants and animals, but also for humans who need to breathe clean air to be alive.
         "
     }
-    , Rori: {
+    , everglades: {
         "name": "Rori"
         , "question1": "Everglades National Park"
         , "question2": "Every year, when I was little I would visit the Everglades on school field trips."
@@ -20,7 +20,7 @@ var responses = {
         , "question7": "Unique. Vast. Underrated. "
         "question8": "We NEED to protect our national parks to preserve our history and the environment. National Parks contain some of the greatest landscapes the world has to offer and without them, we would lose not only landscapes, but also pieces of history. "
     }
-    , Chuck: {
+    , zion: {
         "name": "Chuck"
         , "question1": "Zion National Park"
         , "question2": "Full disclosure I thought about picking Grand Canyon. The ability to see sunrise, hike, and then sunset is pretty cool. But less of that and more of Zion! The whole park is in the middle of the most picturesque valley I have seen. From the moment we drove into the east entrance of the park, I was super jealous of my passengers. They got to look around and I had to pretend to focus on keeping them safe.There is a ton of hiking in the park. Since we were trying to see multiple parks, we only did two hikes: The Narrows and Angel's Landing. I could spend a couple weeks here hiking. There seems to be a huge variety and definitely something for every skill level. Pro tip: The only drawback about Utah is the 3.2% beer laws! Good thing we were road tripping from better and wetter states."
@@ -30,7 +30,7 @@ var responses = {
         , "question7": "Iron. Like a Lion. In ZION!"
         , "question8": "We have to protect the parks cause the future generations need life changing experiences that aren't overproduced."
     }
-    , Wade: {
+    , haleakala: {
         "name": "Wade"
         , "question1": "Haleakalā National Park"
         , "question2": "A literal out-of-this-world feel ranging from Sliding Sands, which feels like Mars, to the surreal stargazing at night, where so many stars are visible one feels like they're adrift in space. Many also go just for the sunrise, which I've yet to experience. "
@@ -40,7 +40,7 @@ var responses = {
         , "question7": "I look above head. My vision focuses in. Fleeting clarity"
         , "question8": "I'd say height is most easily grasped by measuring tall against short. Similarly, to truly appreciate and recognize our symbiotic relationship with Mother Earth, we must maintain the dichotomy of purity (National Parks) against the impurities we inevitably introduce ourselves."
     }
-    , Mike: {
+    , yosemite: {
         "name": "Mike"
         , "question1": "Yosemite National Park"
         , "question2": "Two main features are what set Yosemite apart, the biodiversity and geologic diversity. From the Yosemite Valley floor to the top of granite cliffs, you can appreciate the rapid change in climate and what you experience with your five senses. A weekend won't let you experience but a speck of the grandeur of Yosemite National Park. If you love having a variety of things to do and/or are a geologic/nature geek, this has to be on your list of places to visit."
@@ -50,7 +50,7 @@ var responses = {
         , "question7": "Half-dome Hulk-smashes hubris"
         , "question8": "Protecting our parks is essential because it gives an opportunity to every generation to reconnect with nature and remind themselves that we are part of a greater ecosystem called Mother Earth and we are charged with being stewards of this system. The collective of choices that we make as an individual and society have downstream effects that increasingly we can feel within our own lifetimes not to mention future generations."
     }
-    , Sarah: {
+    , smoky: {
         "name": "Sarah"
         , "question1": "Great Smoky Mountains National Park"
         , "question2": "The Smoky Mountains are mysterious and magical. There are wide expanses of virgin forest. In the morning the gorges are still filled with fog that turns the green into ribbons of green and grey. The narrow highways wind along the mountain face and duck under waterfalls and past rocky creeks. The Smoky Mountains are known for their diversity and abundance of plant and animal life, and when you are there you become completely and totally a part of that world."
@@ -60,7 +60,7 @@ var responses = {
         , "question7": "Pooh sticks on the bridge. Soft frothly foam against grey rocks. The cool creek slips by. (See A.A. Milne for definition of Pooh sticks. A top 10 game in the Read household.)"
         , "question8": "Parks make us better people."
     }
-    , Fern: {
+    , whitesands: {
         "name": "Fern"
         , "question1": "White Sands National Park"
         , "question2": "White Sands is an incredibly humbling and whimsical stretch of mother nature’s wonders in the middle of a desolate stretch of New Mexico. It reminds me of not only how transient our world and life is, but also how resilient it is. White Sands used to be the bottom of a lake millions of years ago and with time, the lake dried up and the mineral stones at the bottom of the lake were windblown into tiny particles of pure white sand. This park’s long history of coming to be and humble simplicity make it shine with beauty."
@@ -70,7 +70,7 @@ var responses = {
         , "question7": "Sky scraped sediment"
         , "question8": "I went to a conference recently where a woman stood on the platform and read a list of all the species that have recently been placed on the endangered species list. As she listed each animal, I began to cry. Her list didn’t stop. It went on and on and on. Our national parks are the homes of these animals. They are a part of our ecosystem and world. Our health, wellbeing and happiness is directly related to the health, happiness and diversity in our environment. Nature is my sense of connection to the present moment and to simplicity, humility, awe and joy. There is nothing that grounds me more than being among the trees, the ocean or on a hike. Without humans accepting the need to invest in and protect our parks, how will we ensure that we prioritize the health and diversity of our ecosystem and in turn the health and happiness of ourselves?"
     }
-    , Linda: {
+    , antelope: {
         "name": "Linda"
         , "question1": "Not a National Park because it's on Navajo land but...Antelope Canyon!"
         , "question2": "This is a magical playground for the imaginative mind. The curvy canyon walls are carved out by wind erosion and the colors range from a deep purple hue to a glowing orange. Light beams shine from the crevices above. One can see shapes of bears, eagles, a candle and even George Washington depending on the angle, lighting and your mental creativity."
@@ -80,7 +80,7 @@ var responses = {
         , "question7": "A world of color.Beasts of flight, now a girl’s face. Ever changing shapes."
         , "question8": "Our national parks not only protect the most beautiful landscapes of the world, it also preserves the fraying connection between humanity and the earth we inhabit. Without the wonder and reverence for our natural ecosystems, we will be detached from the very entity that feeds, sustains and enriches us."
     }
-    , Rasheed: {
+    , cascades: {
         "name": "Rasheed"
         , "question1": "North Cascades National Park"
         , "question2": "Soul riveting hiking. Wild topography, forever green, glaciers, wildlife,  makes every direction a vista forever."
@@ -90,7 +90,7 @@ var responses = {
         , "question7": "Great Green Gain"
         , "question8": "Too many humans. Humans always trying to use new land to live on and develop. New land is actually just nature. Parks preserve nature. Nature gives peace and perspective. Without peace and perspective we'll all go insane. Insane people aren't very social. It will be an awkward end to humanity."
     }
-    , Neda: {
+    , sanjuan: {
         "name": "Neda"
         , "question1": "San Juan Islands National Historical Park"
         , "question2": "The perfect blend of nature, solitude, and the possibility to enjoy a little luxury. It's a magical place."

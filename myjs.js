@@ -16,6 +16,6 @@ var saguaro = document.getElementById("saguaro");
 saguaro.addEventListener("click", function () {
     console.log("howdy!");
     document.getElementById("test").style.display = "block";
-    document.getElementById("name").innerHTML = npData[1].name;
+    document.getElementById("name").innerHTML = npData[0].name;
 });
 
