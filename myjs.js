@@ -31,3 +31,7 @@ $("#saguaro").on("mouseout", function () {
 $("#haleakala").on("mouseover", function () {
     $("#haleakalaLines").css('display', 'inline');
 });
+$("#haleakala").on("mouseout", function () {
+    console.log("meow");
+    $("#haleakalaLines").css('display', 'none');
+});
