@@ -80,6 +80,10 @@ div#test {
     z-index: 100;
 }
 
-#littleLines {
+#saguaroLines {
+    display:none;
+}
+
+#haleakalaLines {
     display:none;
 }

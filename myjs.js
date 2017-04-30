@@ -21,5 +21,9 @@ haleakala.addEventListener("click", function () {
 });
 
 $("#saguaro").on("mouseover", function(){
-    $("#littleLines").css('display','inline');
+    $("#saguaroLines").css('display','inline');
+});
+
+$("#haleakala").on("mouseover", function(){
+    $("#haleakalaLines").css('display','inline');
 });
