@@ -20,3 +20,6 @@ haleakala.addEventListener("click", function () {
     console.log("howdy!");
 });
 
+$("#saguaro").on("mouseover", function(){
+    $("#littleLines").css('display','');
+});

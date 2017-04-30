@@ -80,7 +80,6 @@ div#test {
     z-index: 100;
 }
 
-#hoverSaguaro {
-    display: block;
-    color: aqua;
+#littleLines {
+    display:none;
 }
