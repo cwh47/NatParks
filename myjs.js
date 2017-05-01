@@ -36,8 +36,19 @@ $("#everglades").on("mouseout", function () {
     $("#evergladesLines").css('display', 'none');
 });
 
-/*
+
 //modal
+
+/*$( ".clickable" ).click(function(event) {
+alert(event.target.id);
+});*/
+
+$( ".clickable" ).click(function() {
+    //Store the title string from the called object's id
+    var title = $(this).attr("id");
+    alert(title);
+});
+
 var list = document.querySelector("saguaro", "haleakala", "everglades");
 
 list.addEventListener("click", function(event){
@@ -47,13 +58,6 @@ list.addEventListener("click", function(event){
     document.querySelector("#title").textContent = info[event.target.id].name;
     
 })
-*/
-
-$( ".clickable" ).click(function(event) {
-alert(event.target.id);
-});
-
-
 
 
 
