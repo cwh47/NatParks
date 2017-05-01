@@ -27,6 +27,7 @@ $("#saguaro").on("mouseout", function () {
     console.log("meow");
     $("#saguaroLines").css('display', 'none');
 });
+
 //haleakala hover
 $("#haleakala").on("mouseover", function () {
     $("#haleakalaLines").css('display', 'inline');
@@ -34,4 +35,13 @@ $("#haleakala").on("mouseover", function () {
 $("#haleakala").on("mouseout", function () {
     console.log("meow");
     $("#haleakalaLines").css('display', 'none');
+});
+
+//everglades hover
+$("#everglades").on("mouseover", function () {
+    $("#evergladesLines").css('display', 'inline');
+});
+$("#everglades").on("mouseout", function () {
+    console.log("meow");
+    $("#evergladesLines").css('display', 'none');
 });
