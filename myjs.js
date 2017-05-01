@@ -9,30 +9,6 @@ $.ajax({
     }
 });
 
-//display block
-var saguaro = document.getElementById("saguaro");
-saguaro.addEventListener("click", function () {
-    console.log("howdy!");
-    document.getElementById("test").style.display = "block";
-});
-
-//modal
-var list = document.querySelector("saguaro", "haleakala", "everglades");
-
-list.addEventListener("click", function(event){
-    console.log(info[event.target.id]);
-    //above code will return the id value of the list item that is clicked on. the id corresponds with the key in the "info" object.
-    
-    document.querySelector("#title").textContent = info[event.target.id].name;
-    
-})
-
-
-
-
-
-
-
 
 //saguaro hover
 $("#saguaro").on("mouseover", function () {
@@ -59,3 +35,26 @@ $("#everglades").on("mouseout", function () {
     console.log("meow");
     $("#evergladesLines").css('display', 'none');
 });
+
+/*
+//modal
+var list = document.querySelector("saguaro", "haleakala", "everglades");
+
+list.addEventListener("click", function(event){
+    console.log(ans[event.target.id]);
+    //above code will return the id value of the list item that is clicked on. the id corresponds with the key in the "info" object.
+    
+    document.querySelector("#title").textContent = info[event.target.id].name;
+    
+})
+*/
+
+$( ".clickable" ).click(function(event) {
+alert(event.target.id);
+});
+
+
+
+
+
+
