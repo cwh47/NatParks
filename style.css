@@ -75,20 +75,13 @@ a:hover {
     overflow: hidden;
 }
 
-div#test {
-    display: none;
+.modal{
     position: absolute;
-    left: 20%;
-    right: 20%;
-    top: 13%;
-    width: 40%;
-    height: 600px;
-    background-color: whitesmoke;
-    opacity: 70%;
-    border-radius: 10px;
-    z-index: 100;
+    z-index: 1000;
 }
 
+
+/*hover styles*/
 #saguaroLines {
     display: none;
 }
