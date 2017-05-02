@@ -93,3 +93,23 @@ a:hover {
 #evergladesLines {
     display: none;
 }
+ 
+/*Modal/div style*/
+#box{
+    z-index: 1000;
+    width: 800px;
+    height: 600px;
+    left: calc(50% - 400px);
+    top: calc(50% - 300px);
+    overflow: scroll;
+    position: absolute;
+    background-color: #f0f8ff;
+    font-family: 'Arvo', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    border-color: #dbdc01;
+    padding: 25px;
+    
+    
+    
+}
