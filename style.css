@@ -138,7 +138,7 @@ a:hover {
 
 #overlay {
     background: #088da5;
-    opacity: .5;
+    opacity: .25;
     position: fixed;
     top: 0px;
     bottom: 0px;
