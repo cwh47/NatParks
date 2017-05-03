@@ -24,10 +24,13 @@ $("#everglades").on("mouseout", function () {
 /*WORKING CODE MODAL*/
 //SAGUARO MODAL 
 $("#saguaro").on("click", function () {
-    $("#box").html(ans.laura.name);
+    $("#box").html(ans.laura.name.question1);
 });
 $("#saguaro").on("click", function () {
     $("#box").css('display', 'inline');
+});
+$("#saguaro").on("click", function () {
+    $("#a.boxclose").css('display', 'inline');
 });
 $("#saguaro").on("click", function () {
     $("#overlay").css('display', 'inline');

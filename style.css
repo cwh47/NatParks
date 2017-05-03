@@ -141,7 +141,8 @@ a.boxclose{
     font-weight: bold;
     display: inline-block;
     line-height: 0px;
-    padding: 11px 3px;       
+    padding: 11px 3px;   
+    z-index: 10000;
 }
 
 .boxclose:before {
