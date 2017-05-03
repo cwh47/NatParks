@@ -13,7 +13,6 @@ a {
 
 a:hover {
     color: #ff00ff;
-    filter: alpha(opacity=40);
     opacity: .5;
 }
 
@@ -24,6 +23,17 @@ a:hover {
     font-size: 22px;
     padding: 2%;
     line-height: 25px;
+}
+
+#byline{
+    color: #ff00ff;
+    opacity: .5;
+    font-size: 15px;
+    font-family: 'Cedarville Cursive', sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 12px;
 }
 
 #modalq {
