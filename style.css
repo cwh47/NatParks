@@ -12,8 +12,9 @@ a {
 }
 
 a:hover {
-    color: #468499;
+    color: #ff00ff;
     filter: alpha(opacity=40);
+    opacity: .5;
 }
 
 
