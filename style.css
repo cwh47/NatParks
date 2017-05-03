@@ -21,14 +21,14 @@ a {
 
 a:hover {
     color: #468499;
-    filter:alpha(opacity=40);
+    filter: alpha(opacity=40);
 }
 
 .title {
     color: black;
     font-family: 'Londrina Sketch', sans-serif;
     font-size: 45px;
-    color:#468499;
+    color: #468499;
     letter-spacing: 5px;
     text-transform: uppercase;
     padding-left: 20px;
@@ -75,13 +75,14 @@ a:hover {
     overflow: hidden;
 }
 
-.modal{
+.modal {
     position: absolute;
     z-index: 1000;
 }
 
 
 /*hover styles*/
+
 #saguaroLines {
     display: none;
 }
@@ -93,23 +94,57 @@ a:hover {
 #evergladesLines {
     display: none;
 }
- 
-/*Modal/div style*/
-#box{
+
+
+/*Modal styles and effects*/
+
+#box {
     z-index: 1000;
-    width: 800px;
-    height: 600px;
-    left: calc(50% - 400px);
-    top: calc(50% - 300px);
+    width: 600px;
+    height: 500px;
+    left: calc(50% - 300px);
+    top: calc(50% - 275px);
     overflow: scroll;
     position: absolute;
-    background-color: #f0f8ff;
-    font-family: 'Arvo', sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    border-color: #dbdc01;
+    background-color: #fffff0;
+    font-family: 'Cedarville Cursive', sans-serif;
+    font color: #404040;
+    font-size: 20px;
+    border: 5px #dbdc01;
+    border-style: solid;
+    border-radius: 5px;
     padding: 25px;
-    
-    
-    
+    display: none;
+}
+
+#overlay{
+    background: #088da5;
+    opacity:.5;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:100;
+}
+
+a.boxclose{
+    float:right;
+    margin-top:-30px;
+    margin-right:-30px;
+    cursor:pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 30px;
+    background: #605F61;
+    font-size: 31px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;       
+}
+
+.boxclose:before {
+    content: "×";
+
 }
