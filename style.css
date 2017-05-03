@@ -6,14 +6,6 @@ h2 {
     text-transform: uppercase;
 }
 
-p {
-    color: #404040;
-    font-family: 'Cedarville Cursive', sans-serif;
-    font-size: 23px;
-    padding: 2%;
-    line-height: 23px;
-}
-
 a {
     color: #ffc82e;
     text-decoration: none;
@@ -22,6 +14,22 @@ a {
 a:hover {
     color: #468499;
     filter: alpha(opacity=40);
+}
+
+
+#about-text {
+    color: #404040;
+    font-family: 'Cedarville Cursive', sans-serif;
+    font-size: 22px;
+    padding: 2%;
+    line-height: 25px;
+}
+
+#modalq {
+    color: #404040;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
 }
 
 .title {
@@ -117,35 +125,34 @@ a:hover {
     display: none;
 }
 
-#overlay{
+#overlay {
     background: #088da5;
-    opacity:.5;
-    position:fixed;
-    top:0px;
-    bottom:0px;
-    left:0px;
-    right:0px;
-    z-index:100;
+    opacity: .5;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
 }
 
-a.boxclose{
-    float:right;
-    margin-top:-30px;
-    margin-right:-30px;
-    cursor:pointer;
-    color: #fff;
-    border: 1px solid #AEAEAE;
+a.boxclose {
+    float: right;
+    margin-top: -30px;
+    margin-right: -30px;
+    cursor: pointer;
+    color: #ff00ff;
     border-radius: 30px;
-    background: #605F61;
-    font-size: 31px;
-    font-weight: bold;
-    display: inline-block;
-    line-height: 0px;
-    padding: 11px 3px;   
-    z-index: 10000;
+    opacity: .5;
+    font-size: 30px;
+    display: block;
+    padding-right: 18px;
+    padding-top: 8px;
+    font-weight: 600; 
+    font-family: 'Quicksand', sans-serif;
+    z-index: 1001;
 }
 
 .boxclose:before {
-    content: "×";
-
+    content: "x";
 }

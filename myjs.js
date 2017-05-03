@@ -23,18 +23,26 @@ $("#everglades").on("mouseout", function () {
 
 /*WORKING CODE MODAL*/
 //SAGUARO MODAL 
-$("#saguaro").on("click", function () {
+$("#saguaro").on("click", function () {  //pulls html data
     $("#box").html(ans.laura.name.question1);
 });
-$("#saguaro").on("click", function () {
+$("#saguaro").on("click", function () {  //trigger css modal
     $("#box").css('display', 'inline');
 });
-$("#saguaro").on("click", function () {
+$("#saguaro").on("click", function () {  //show "x"
     $("#a.boxclose").css('display', 'inline');
 });
-$("#saguaro").on("click", function () {
+$("#saguaro").on("click", function () {  //trigger overlay
     $("#overlay").css('display', 'inline');
 });
+$("#boxclose").on("click", function () {  //closes box
+    $("#box").css('display', 'none');
+});
+$("#boxclose").on("click", function () {  //removes overlay
+    $("#overlay").css('display', 'none');
+});
+
+
 
 //DATA
 var ans = {
