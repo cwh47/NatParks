@@ -16,7 +16,6 @@ a:hover {
     opacity: .5;
 }
 
-
 #about-text {
     color: #404040;
     font-family: 'Cedarville Cursive', sans-serif;
@@ -25,7 +24,7 @@ a:hover {
     line-height: 25px;
 }
 
-#byline{
+#byline {
     color: #ff00ff;
     opacity: .5;
     font-size: 15px;
@@ -114,6 +113,34 @@ a:hover {
     display: none;
 }
 
+#sanjLines {
+    display: none;
+}
+
+#cascadesLines {
+    display: none;
+}
+
+#wsLines {
+    display: none;
+}
+
+#smokyLines {
+    display: none;
+}
+
+#zionLines {
+    display: none;
+}
+
+#yosemiteLines {
+    display: none;
+}
+
+#antelopeLines {
+    display: none;
+}
+
 
 /*Modal styles and effects*/
 
@@ -159,7 +186,7 @@ a.boxclose {
     display: block;
     padding-right: 18px;
     padding-top: 8px;
-    font-weight: 600; 
+    font-weight: 600;
     font-family: 'Quicksand', sans-serif;
     z-index: 1001;
 }
