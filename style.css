@@ -105,12 +105,6 @@ a:hover {
     overflow: hidden; 
 }
 
-.modal {
-    position: absolute;
-    z-index: 1000;
-}
-
-
 /*hover styles*/
 
 #saguaroLines {
@@ -162,7 +156,7 @@ a:hover {
     height: 500px;
     left: calc(50% - 300px);
     top: calc(50% - 275px);
-    overflow: scroll;
+    overflow: hidden;
     position: absolute;
     background-color: #fffff0;
     font-family: 'Cedarville Cursive', sans-serif;
@@ -183,7 +177,7 @@ a:hover {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    z-index: 100;
+    z-index: 1000;
 }
 
 a.boxclose {
