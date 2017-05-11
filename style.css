@@ -1,9 +1,30 @@
+#navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    min-height:  height: 8%;
+    overflow: hidden;
+    background-color: white;
+}
+
 h2 {
     color: black;
     font-family: 'Fjalla One', sans-serif;
     font-size: 18px;
     letter-spacing: .75px;
     text-transform: uppercase;
+}
+
+.maintext {
+    font-family: 'Cedarville Cursive', 'sans-serif';
+    font-size: 16px;
+    padding-left: 2%;
+    padding-right: 40%;
+    line-height: 20px;
+    color: #404040;
+    margin-top: 50px;
+    display: inline-block;
+    position: fixed;
 }
 
 a {
@@ -43,7 +64,6 @@ a:hover {
 }
 
 .title {
-    color: black;
     font-family: 'Londrina Sketch', sans-serif;
     font-size: 45px;
     color: #468499;
@@ -52,6 +72,7 @@ a:hover {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 1px;
+    text-overflow: ellipsis;
 }
 
 .about {
@@ -59,16 +80,7 @@ a:hover {
     font-size: 20px;
     list-style: none;
     width: 100%;
-}
-
-.description {
-    font-family: 'Cedarville Cursive', 'sans-serif';
-    font-size: 14px;
-    padding-left: 20px;
-    padding-right: 350px;
-    line-height: 20px;
-    padding-bottom: 20px;
-    color: #404040;
+    list-style-type: none;
 }
 
 .main {
@@ -76,6 +88,7 @@ a:hover {
     font-size: 20px;
     list-style: none;
     width: 100%;
+    list-style-type: none;
 }
 
 .nav-li {
@@ -88,9 +101,8 @@ a:hover {
     display: inline-block;
     width: 100%;
     height: auto;
-    padding-top: 30px;
-    vertical-align: middle;
-    overflow: hidden;
+    margin-top: 130px;
+    overflow: hidden; 
 }
 
 .modal {
