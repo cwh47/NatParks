@@ -17,9 +17,9 @@ h2 {
 
 .maintext {
     font-family: 'Cedarville Cursive', 'sans-serif';
-    font-size: 16px;
-    padding-left: 2%;
-    padding-right: 40%;
+    font-size: 1.5vw;
+    padding-left: 20px;;
+    padding-right: 20px;
     line-height: 20px;
     color: #404040;
     margin-top: 50px;
@@ -65,7 +65,7 @@ a:hover {
 
 .title {
     font-family: 'Londrina Sketch', sans-serif;
-    font-size: 45px;
+    font-size: 4.5vw;
     color: #468499;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -77,7 +77,7 @@ a:hover {
 
 .about {
     font-family: 'Cedarville Cursive', sans-serif;
-    font-size: 20px;
+    font-size: 2vw;
     list-style: none;
     width: 100%;
     list-style-type: none;
@@ -85,7 +85,7 @@ a:hover {
 
 .main {
     font-family: 'Cedarville Cursive', 'Arvo';
-    font-size: 20px;
+    font-size: 2vw;
     list-style: none;
     width: 100%;
     list-style-type: none;
